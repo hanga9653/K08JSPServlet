@@ -15,9 +15,9 @@
 	JDBConnect jdbc = new JDBConnect();
 	
 	//입력할 회원데이터 준비(하드코딩	)
-	String id = "test2";
-	String pass = "2222";
-	String name = "테스트2회원";
+	String id = "test4";
+	String pass = "4444";
+	String name = "테스트4회원";
 	
 	//인파라미터가 있는 동적쿼리문을 준비한다.
 	String sql = "INSERT INTO member VALUES (?, ?, ?, sysdate)";
