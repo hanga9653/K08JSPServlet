@@ -32,7 +32,7 @@ if(memberDTO.getId()!= null){
 }
 else{
 	//로그인에 실패한 경우라면...
-	//리퀘스트 영역에 에러메세지를 저장ㅎ나다.
+	//리퀘스트 영역에 에러메세지를 저장한다.
 	request.setAttribute("LoginErrMsg", "로그인 오류입니다.");
 	//그리고 로그인 페이지로 '포워드'한다.
 	request.getRequestDispatcher("LoginForm.jsp").forward(request, response);
