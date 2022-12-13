@@ -79,7 +79,8 @@ forEach태그의 일반 for문 형태
 	<br />
 	<br />
 	
-	
+	<h4>연습문제2</h4>
+	<!-- 앞의 문제를 choose~when~otherwise문으로 변경하시오. -->
 	<c:forEach begin="1" end="5" var="i">
 		<c:forEach begin="1" end="5" var="j">
 			<c:choose>
