@@ -15,6 +15,11 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("*.one")
 public class FrontController extends HttpServlet{
 	
+	/*
+	get방식으로 들어오는 요청을 처리하기 위해 doGet메서드를 오버라이딩
+   해야한다. 만약 서블릿에 이 메서드가 정의되지 않았다면 405에러가
+   발생하게 된다. 즉 해당 방식의 요청을 처리할 수  없다는 의미이다.
+	 */
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
