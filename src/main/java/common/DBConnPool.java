@@ -70,7 +70,7 @@ public class DBConnPool {
 			if(psmt != null) psmt.close();
 			if(con != null) con.close();
 			
-			System.out.println("JDBC 자원 해제");
+			System.out.println("DB 자원 해제");
 		}
 		catch (Exception e) {
 			e.printStackTrace();
